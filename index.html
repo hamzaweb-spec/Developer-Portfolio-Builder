@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Portfolio Builder</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Developer Portfolio Builder</h1>
+
+<div class="container">
+
+<div class="form-section">
+
+<h2>Enter Your Details</h2>
+
+<input type="text" id="name" placeholder="Your Name">
+
+<input type="text" id="skills" placeholder="Your Skills (HTML, CSS, JS)">
+
+<input type="text" id="github" placeholder="GitHub Link">
+
+<input type="text" id="linkedin" placeholder="LinkedIn Link">
+
+<textarea id="about" placeholder="About You"></textarea>
+
+<button onclick="generatePortfolio()">Generate Portfolio</button>
+
+</div>
+
+<div class="preview-section">
+
+<h2>Portfolio Preview</h2>
+
+<div id="portfolio"></div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
